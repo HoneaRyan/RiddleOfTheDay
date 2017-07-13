@@ -1,6 +1,9 @@
 {
   "intents": [
     {
+      "intent": "HowToPlay"
+    },
+    {
       "intent": "GetRiddle",
       "slots": [
         {
