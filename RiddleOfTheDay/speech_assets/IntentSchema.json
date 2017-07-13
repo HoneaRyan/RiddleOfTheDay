@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "GetRiddle",
+      "slots": [
+        {
+          "name": "day",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "GetAnotherRiddle"
+    },
+    {
+      "intent": "GiveUp"
+    },
+    {
+      "intent": "GetHint"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
