@@ -4,7 +4,10 @@
       "intent": "HowToPlay"
     },
     {
-      "intent": "GetRiddle",
+      "intent": "GetRiddle"
+    },
+    {
+      "intent": "GetAnotherRiddle",
       "slots": [
         {
           "name": "day",
@@ -13,13 +16,16 @@
       ]
     },
     {
-      "intent": "GetAnotherRiddle"
+      "intent": "AnswerRiddle"
     },
     {
       "intent": "GiveUp"
     },
     {
       "intent": "GetHint"
+    },
+    {
+      "intent": "RepeatRiddle"
     },
     {
       "intent": "AMAZON.HelpIntent"

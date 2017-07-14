@@ -1,0 +1,24 @@
+HowToPlay How do I play this game
+HowToPlay Tell me how to play RiddleOfTheDay
+HowToPlay How do I play
+HowToPlay What are the rules
+HowToPlay Rules
+GetRiddle Whats my daily riddle
+GetRiddle Whats my riddle of the day
+GetRiddle Get my daily riddle
+GetAnotherRiddle Whats the riddle for {day}
+GetAnotherRiddle Get me the riddle for {day}
+GetAnotherRiddle Give me a random riddle
+GetAnotherRiddle Give me another riddle
+GiveUp I give up
+GiveUp Whats the answer
+GiveUp Tell me the answer
+GetHint Could I get a hint
+GetHint I need some help
+RepeatRiddle Could you repeat that
+RepeatRiddle I didn't understand
+RepeatRiddle What did you say
+AnswerRiddle The answer is {answer}
+AnswerRiddle Is it {answer}
+AnswerRiddle The solution is {answer}
+AnswerRiddle It is {answer}

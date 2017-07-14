@@ -20,3 +20,4 @@ Riddle of the Day is currently licensed under Gnu General Public License (GPL) w
 
 ## Updates
 * July 13, 2017 - Started readme, created license and added some potential intents to IntentSchema.
+* July 13, 2017 - Added a sample riddle for July 21st, and wrote some preliminary code.
