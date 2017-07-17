@@ -17,19 +17,35 @@ with open('Riddles.json', encoding='utf-8') as data_file:
     RIDDLES = json.loads(data_file.read())
 
 CURRENT_RIDDLE =  # used so answers and hints can be given
-
+LAUNCH_STATEMENT = True
 
 @ask.launch
 def launch():
-    day = time.strftime('%Y-%m-%d')
-    return get_question(day)
+    return HowToPlay()
 
 @ask.intent('HowToPlay')
 def howToPlay():
-    print("hey")
+	how_to_play_statement = ""
+	card_title = "HowToPlay"
+    if Launch_Statement:
+    	how_to_play_statement += "Welcome to Riddle of the Day!"
+    	Launch_Statement = False
+    else:
+    	how_to_play_statement += "In Riddle of the Day, you can ask for a daily riddle.\n"
+    	how_to_play_statement += "Say I'd like today's riddle to start.\n"
+    	how_to_play_statement += "If you want more, ask for another riddle.\n"
+    	how_to_play_statement += "When you are ready to answer, say 'the answer is' blank"
+    	how_to_play_statement += "where blank is your answer.\n Enjoy playing!"
+    return question(how_to_play_statement).simple_card(card_title, how_to_play_statement)
+
+@ask.intent('GetRiddle')
+def getTodaysRiddle():
+	day = time.strftime('%Y-%m-%d')
+    return getRiddle(day)
 
 @ask.intent('GetAnotherRiddle', mapping={'day': 'Day'})
 def getRiddle(day):
+	card_title = "GetRiddle"
     CURRENT_RIDDLE = RIDDLES['dailyRiddle'][day]
     
 
