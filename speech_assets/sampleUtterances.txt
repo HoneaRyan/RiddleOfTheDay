@@ -16,6 +16,7 @@ GiveUp Tell me the answer
 GetHint Could I get a hint
 GetHint I need some help
 RepeatRiddle Could you repeat that
+RepeatRiddle Could you repeat the riddle
 RepeatRiddle I didn't understand
 RepeatRiddle What did you say
 AnswerRiddle The answer is {answer}
